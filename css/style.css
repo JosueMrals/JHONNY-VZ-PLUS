@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin-left: 2.7px;
+    margin-top: 4.7px;
+    margin-right: 3.5px;
+}
+
+.contenedor{
+    background-color: rgba(196, 9, 9, 0.877);
+    width: 100%;
+    height: 45px;
+ 
+}
+
+.contenedor2{
+    background-color: rgba(255, 255, 255, 0.877);
+    width: 100%;
+    height: 45px;
+ 
+}
+.facebook
+{
+    margin-left: 1000px;
+    width:40px;
+    height: 35px;
+    position: relative;
+    left: 21%;
+    bottom: 70%;
+}
+
+.ubicacion
+{
+    margin-left: 950px;
+    width:35px;
+    height: 25px;
+    position: relative;
+    left: 21.5%;
+    bottom: 155%;
+}
+
+.instagram
+{
+    margin-left: 950px;
+    width:35px;
+    height: 30px;
+    position: relative;
+    left: 18%;
+    bottom: 239%;
+}
+
+.ini-sesion
+{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.ini-sesion:hover{
+    background-color: grey;
+}
+
+.contenedor2{
+    background-color: rgba(255, 255, 255, 0.877);
+    width: 100%;
+    height: 45px;
+}
+
+footer {
+    background-color: red;
+    float: bottom;
+    height: 200px;    
+}
+
+footer > div.div1 {
+    width: 100%;
+    height: 150px;
+    
+}
+
+footer > div.div1 > .columna{
+    float: left;
+    width: 45%;
+    height: 150px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.portada1{
+    width: 100%;
+    height: 500px;
+}
+    
+.tele-enca
+{
+    font-family: 'Lateef', cursive;
+    font-size: 18px;
+    color: white;
+    padding-left: 10px;
+}
