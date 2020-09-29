@@ -93,9 +93,9 @@
 
 footer {
     background-color: red;
-    background-image: linear-gradient(to bottom , red, rgba(0,0,0,0.6));
+    background-image: linear-gradient(to bottom , red, rgba(19, 10, 10, 0.767));
     float: bottom;
-    height: 200px;    
+    height: 250px;    
 }
 
 footer > div.div1 {
@@ -137,10 +137,19 @@ color: white;
 
 .fopie1{
     background-color: red;
-    background-image: linear-gradient(to bottom , red, rgba(255, 255, 255, 0.6));
+    background-image: linear-gradient(to bottom , red, rgba(255, 255, 255, 0.698));
     width: 70%;
     height: 2px;
    
 }
+
+.fonav
+{
+    color: white;
+}
+
+
+
+
 
 
