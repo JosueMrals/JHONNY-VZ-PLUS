@@ -93,7 +93,7 @@
 
 footer {
     background-color: red;
-    background-image: linear-gradient(to bottom , red, rgba(0,0,0,0.9));
+    background-image: linear-gradient(to bottom , red, rgba(0,0,0,0.6));
     float: bottom;
     height: 200px;    
 }
@@ -109,7 +109,8 @@ footer > div.div1 > .columna{
     width: 30%;
     height: 150px;
     margin-left: 30px;
-    margin-top: 15px;
+    margin-top: 15px;c
+    
 }
 
 li{
@@ -128,4 +129,18 @@ li{
     color: white;
     padding-left: 10px;
 }
+
+.fopie
+{
+color: white;
+}
+
+.fopie1{
+    background-color: red;
+    background-image: linear-gradient(to bottom , red, rgba(255, 255, 255, 0.6));
+    width: 70%;
+    height: 2px;
+   
+}
+
 
