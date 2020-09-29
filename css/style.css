@@ -109,8 +109,7 @@ footer > div.div1 > .columna{
     width: 30%;
     height: 150px;
     margin-left: 30px;
-    margin-top: 15px;c
-    
+    margin-top: 15px;
 }
 
 li{
@@ -145,8 +144,19 @@ color: white;
 
 .fonav
 {
-    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Peddana', serif;
+    font-size: 20px;
+color: white;
 }
+.foin
+{
+    font-family: 'Fjalla One', sans-serif;
+font-family: 'Peddana', serif;
+    color: white;
+font-size: 24px;
+}
+
 
 
 
