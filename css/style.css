@@ -23,6 +23,8 @@
 
     font-family: 'Fjalla One', sans-serif;  
     font-size: 45px;
+    color: red  ;
+    
 
 }
 
@@ -126,3 +128,4 @@ li{
     color: white;
     padding-left: 10px;
 }
+
