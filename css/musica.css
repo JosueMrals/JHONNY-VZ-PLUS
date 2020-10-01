@@ -1,0 +1,26 @@
+.encabezado{
+    background-image: linear-gradient( red, rgb(34, 30, 30));
+    height: 80px;
+}
+
+.h2musica{
+    text-align: center;
+    color: white;
+    top: 15px;
+    position: relative;
+    background-color: transparent;
+}
+.card{
+    margin-top: 10px;
+    margin-left: 33px;
+    
+}
+
+.div_principal{
+    background-color: turquoise;
+}
+
+.card{
+    float: left;
+}
+
