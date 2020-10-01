@@ -7,4 +7,20 @@
 
 .botton > a:hover{
     background-color:  rgb(14, 247, 14);
+
+}
+
+.botton > a
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mineria{
+    text-align: center;
+    top: 15px;
+    position: relative;
+    background-color: transparent;
+    color: rgb(237, 22, 22);
+
 }
