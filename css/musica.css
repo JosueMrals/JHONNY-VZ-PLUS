@@ -13,14 +13,25 @@
 .card{
     margin-top: 10px;
     margin-left: 33px;
-    
-}
-
-.div_principal{
-    background-color: turquoise;
-}
-
-.card{
+    width: 300px;
     float: left;
 }
 
+.card-title{
+    background-color: transparent;
+}
+
+.card-text{
+    background-color: transparent;
+}
+
+.div-final > a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 33px;
+    background-color: green;
+}
+
+.div-final > a:hover{
+    background-color: rgb(24, 106, 24);
+}
