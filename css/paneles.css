@@ -1,0 +1,18 @@
+.card {
+    margin-top: 10px;
+    margin-left: 33px;
+    width: 300px;
+    float: left;
+}
+.encabezado{
+    background-image: linear-gradient( red, rgb(34, 30, 30));
+    height: 80px;
+}
+.paneles{
+    text-align: center;
+    top: 15px;
+    position: relative;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+
+}
