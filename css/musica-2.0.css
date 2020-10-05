@@ -5,7 +5,8 @@
 }
 
 body{
-	background: #E0E4E5;
+	background-image: url(../img/6.jpg);
+	background-attachment: fixed;
 	font-family: 'Open Sans', sans-serif; 
 }
 
@@ -16,7 +17,7 @@ body{
 }
 
 .div-principal > h1{
-	color: #494B4D;
+	color: white;
 	font-weight: 400;
 	display: flex;
 	flex-direction: column;
@@ -98,7 +99,7 @@ body{
 footer{
 	padding: 20px;
   	text-align: center;
-  	background: #ddd;
+  	background: transparent;
   	margin-top: 20px;
   	color: #494B4D;
 }
