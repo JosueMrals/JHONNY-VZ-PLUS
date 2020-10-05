@@ -18,16 +18,12 @@
     background-color: white;
     width: 100%;
     height: 55px;
-
 }
 .enjohnny{
 
     font-family: 'Fjalla One', sans-serif;  
     font-size: 45px;
     color: red  ;
-    
-    
-
 }
 
 .contenedor4{
@@ -41,7 +37,6 @@
     background-color: rgba(255, 255, 255, 0.877);
     width: 100%;
     height: 45px;
- 
 }
 .facebook
 {
@@ -93,7 +88,6 @@
     background-color: rgba(255, 255, 255, 0.877);
     width: 100%;
     height: 45px;
-    
 }
 
 footer {
@@ -106,7 +100,6 @@ footer {
 footer > div.div1 {
     width: 100%;
     height: 150px;
-    
 }
 
 footer > div.div1 > .columna{
@@ -142,10 +135,10 @@ li{
 .fopie1{
     background-color: red;
     background-image: linear-gradient(to bottom , red, rgba(255, 255, 255, 0.698));
-    width: 70%;
+    width: 370px;
     height: 2px;
-   
 }
+
 
 .fonav
 {
@@ -154,6 +147,7 @@ li{
     font-size: 20px;
     color: white;
 }
+
 .foin
 {
     font-family: 'Fjalla One', sans-serif;
@@ -177,9 +171,7 @@ li{
     background-color: rgba(255, 255, 255, 0.877);
     width: 100%;
     height: 45px;
-    
 }
-
 
 /*MARCAS */
 
@@ -208,7 +200,6 @@ height: 280px ;
    margin-left: 4%;
     width: 90%;
     height: 2px;
-
 }
 
 /* Carousel de las marcas*/
@@ -217,109 +208,122 @@ height: 280px ;
     display: inline-block;
     margin-left:-10px;
   }
-  .col-md-3 img{
+
+.col-md-3 img{
     width:100%;
     height:auto;
   }
-  body .carousel-indicators li{
+
+body .carousel-indicators li{
     background-color:teal;
   }
-  body .carousel-control-prev-icon,
-  body .carousel-control-next-icon{
+
+body .carousel-control-prev-icon, body .carousel-control-next-icon{
     background-color:teal;
   }
-  body .no-padding{
+
+body .no-padding{
     padding-left: 0;
     padding-right: 0;
   }
-
 
  /* Made with love by Mutiullah Samim*/
 
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
 html,body{
-background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-height: 100%;
-font-family: 'Numans', sans-serif;
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
 }
 
 .container{
-height: 100%;
-align-content: center;
+    height: 100%;
+    align-content: center;
 }
 
 .card{
-height: 370px;
-margin-top: auto;
-margin-bottom: auto;
-width: 400px;
-background-color: rgba(0,0,0,0.5) !important;
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
 }
 
 .social_icon span{
-font-size: 60px;
-margin-left: 10px;
-color: #FFC312;
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
 }
 
 .social_icon span:hover{
-color: white;
-cursor: pointer;
+    color: white;
+    cursor: pointer;
 }
 
 .card-header h3{
-color: white;
+    color: white;
 }
 
 .social_icon{
-position: absolute;
-right: 20px;
-top: -45px;
+    position: absolute;
+    right: 20px;
+    top: -45px;
 }
 
 .input-group-prepend span{
-width: 50px;
-background-color: #FFC312;
-color: black;
-border:0 !important;
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
 }
 
 input:focus{
-outline: 0 0 0 0  !important;
-box-shadow: 0 0 0 0 !important;
-
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
 }
 
-.remember{
-color: white;
+    .remember{
+    color: white;
 }
 
-.remember input
-{
-width: 20px;
-height: 20px;
-margin-left: 15px;
-margin-right: 5px;
+.remember input{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
 }
 
 .login_btn{
-color: black;
-background-color: #FFC312;
-width: 100px;
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
 }
 
 .login_btn:hover{
-color: black;
-background-color: white;
+    color: black;
+    background-color: white;
 }
 
 .links{
-color: white;
+    color: white;
 }
 
 .links a{
-margin-left: 4px;
+    margin-left: 4px;
 }
+
+.capfacebook{
+    width: 100%;
+    height: 180px;
+    margin-top: 10px;
+}
+
+.p-ubicacion{
+    text-align: justify;
+    padding-top: 10px;
+    color: honeydew;
+}
+
