@@ -1,31 +1,116 @@
-.card {
-     margin-top: 10px;
-     margin-left: 33px;
-     width: 300px;
-     float: left;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-.botton > a:hover{
-    background-color:  rgb(14, 247, 14);
+body{
+	background-image: url(../img/7panel2.jpg);
+	background-attachment: fixed;
+	font-family: 'Open Sans', sans-serif; 
+}
+
+.inicio1{
+	background: rgba(0, 0, 0, 0.6);
+	width: 1320px;
+	height: 100%; 
+	margin: 10px;
+}
+
+.div-principal{
+	max-width: 1100px;
+	width: 90%;
+	margin: auto;
 
 }
 
-.botton > a
-{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.div-principal > h1{
+	color: white;
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 10px 0px;
+	padding-top: 6px;
 }
 
-.mineria{
-    text-align: center;
-    top: 15px;
-    position: relative;
-    background-color: transparent;
-    color: rgb(255, 255, 255);
-
+.div-principal > h1:after{
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #C7C7C7;
+	margin: 20px 0;
 }
 
-.Encabezado{
-    background-image: linear-gradient( red, rgb(34, 30, 30));
-    height: 80px;
+.div-cuerpo{
+	display: flex;
+}
+
+.boton{
+	display: flex;
+	flex-direction: column;
+	width: 18%;
+}
+
+.boton .botones{
+	display: block;
+	width: 90%;
+	padding: 15px 0;
+	margin-bottom: 20px;
+
+	text-align: center;
+	text-decoration: none;
+	color: #fff; 
+}
+
+.boton > a{
+	background: blue;
+	color: white;
+	text-decoration: none;
+}
+
+.productos{
+	width: 82%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.productos .item{
+	width: 22%;
+	margin-left: 3%;
+	margin-bottom: 25px;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+	background: white;
+	opacity: 0.92;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-self: flex-start;
+}
+
+.productos .item img{
+	width: 100%;
+	height: 200px;
+}
+
+.productos .item a{
+	display: block;
+	width: 100%;
+	padding: 8px, 0;
+	height: 30px;
+	background: #2D3E50;
+    padding-top: 5px;
+
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+footer{
+	padding: 20px;
+  	text-align: center;
+  	background: transparent;
+  	margin-top: 20px;
+      color: #494B4D;
 }
