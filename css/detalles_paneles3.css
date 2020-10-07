@@ -1,0 +1,27 @@
+.inicio1{
+	background: rgba(0, 0, 0, 0.6);
+	width: 1320px;
+	height: 100%;
+	margin: 10px;
+}
+.encab > h1{
+	color: white;
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 10px 0px;
+	padding-top: 6px;
+}
+
+.encab > h1:after{
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #C7C7C7;
+	margin: 10px 0;
+}
+
+.inicio{
+	display: flex;
+}
