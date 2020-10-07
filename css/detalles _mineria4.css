@@ -17,3 +17,94 @@ body{
 	margin: auto;
 	
 }
+.inicio1{
+	background: rgba(0, 0, 0, 0.6);
+	width: 1320px;
+	height: 100%;
+	margin: 10px;
+}
+
+.encab > h1{
+	color: white;
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 10px 0px;
+	padding-top: 6px;
+}
+
+.encab > h1:after{
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #C7C7C7;
+	margin: 10px 0;
+}
+
+.inicio{
+	display: flex;
+}
+
+.inicio img{
+	width: 330px;
+	height: 330px;
+	margin-left: 40px;
+	opacity: 0.92;
+}
+
+.contenido h1{
+	color: #F9F4F4;
+}
+
+.contenido{
+	float: right;
+	margin-left: 50px;
+}
+
+.contenido ul.ul1{
+	margin-left: 20px;
+}
+
+.contenido ul.ul1 li{
+	font-size: 25px;
+	color: white;
+}
+
+.barra1{
+	background: #c7c7c7;
+	width: 2px;
+	height: 330px;
+	content: '';
+	margin-left: 30px;
+}
+
+.boton{
+	text-decoration: none;
+	background: blue;
+	display: block;
+	width: 15%;
+	padding: 15px 0px;
+	float: right;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+
+.boton2{
+	text-decoration: none;
+	background: green;
+	display: block;
+	width: 15%;
+	padding: 15px 0px;
+	float: right;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+.encab a{
+
+	color: white;
+}
