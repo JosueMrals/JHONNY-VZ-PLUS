@@ -88,3 +88,22 @@
 
 	color: white;
 }
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(../img/8mineria.jpg);
+	background-attachment: fixed;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.encab{
+	max-width: 1100px;
+	height: 620px;
+	width: 90%;
+	margin: auto;
+	
+}
