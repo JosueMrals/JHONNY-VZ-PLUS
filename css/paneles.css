@@ -1,34 +1,35 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	box-sizing: border-box; 
 }
 
 body{
+	/*Establezca una imagen de fondo para el elemento <body> cuerpo:*/
 	background-image: url(../img/7panel2.jpg);
-	background-attachment: fixed;
-	font-family: 'Open Sans', sans-serif; 
+	background-attachment: fixed; /*Una imagen de fondo que no se desplaza con la página (fija)*/
+	font-family: 'Open Sans', sans-serif; /* Especifique la fuente para dos párrafos:*/
 }
 
 .inicio1{
-	background: rgba(0, 0, 0, 0.6);
-	width: 1320px;
-	height: 100%; 
-	margin: 10px;
+	background: rgba(0, 0, 0, 0.6); /* Establezca diferentes propiedades de fondo en una declaración:*/
+	width: 1320px; /*Establezca el ancho de tres elementos <div>*/
+	height: 100%;  /*Establezca la altura de dos elementos <div>*/
+	margin: 10px; /*Establezca el margen de los cuatro lados de un elemento <p> en 35 píxeles*/
 }
 
 .div-principal{
-	max-width: 1100px;
-	width: 90%;
-	margin: auto;
+	max-width: 1100px; /*propiedad define el ancho máximo de un elementos*/
+	width: 90%; /*Establezca el ancho de tres elementos <div>*/
+	margin: auto; /*Establezca el margen de los cuatro lados de un elemento <p> en 35 píxeles*/
 
 }
 
 .div-principal > h1{
-	color: white;
-	font-weight: 400;
-	display: flex;
-	flex-direction: column;
+	color: white; /*el color del texto para diferentes elementos*/
+	font-weight: 400; /*propiedad establece cómo se deben mostrar los caracteres delgados o gruesos en el texto*/
+	display: flex; /*permite poner el elemento en el lugar deceado*/
+	flex-direction: column; 
 	text-align: center;
 	margin: 10px 0px;
 	padding-top: 6px;
