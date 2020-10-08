@@ -2,13 +2,12 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box; /*calcula el ancho y el alto de un elemento: deben incluir relleno y bordes, o no.*/
+	box-sizing: border-box;
 }
 
 body{
 	background-image: url(../img/6.jpg);
 	background-attachment: fixed;
-	/*<background-attachment> establece si una imagen de fondo se desplaza con el resto de la página o es fija.*/
 	font-family: 'Open Sans', sans-serif; 
 }
 
@@ -38,7 +37,6 @@ body{
 
 .div-principal > h1:after{
 	content: '';
-	/*La propiedad <content> se usa con los pseudoelementos ":before" y ":after", para insertar contenido generado.*/
 	width: 100%;
 	height: 2px;
 	background: #C7C7C7;
@@ -74,8 +72,8 @@ body{
 
 .productos{
 	width: 82%;
-	display: flex; /*Muestra un elemento como un contenedor flexible a nivel de bloque*/
-	flex-wrap: wrap; /*propiedad especifica si los elementos flexibles deben ajustarse o no.*/
+	display: flex;
+	flex-wrap: wrap; 
 }
 
 .productos .item{
@@ -89,8 +87,6 @@ body{
 	flex-direction: column;
 	align-items: center;
 	align-self: flex-start; 
-	/* La propiedad <align-self> especifica la alineación del elemento seleccionado dentro del contenedor flexible.*/
-	/* <flex-start> El elemento se coloca al principio del contenedor.*/
 }
 
 .item h4{
